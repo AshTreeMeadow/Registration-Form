@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <style>
+        /* 1. Global Page Styling */
+        body {
+            font-family: Arial, sans-serif; /* Cleaner font */
+            background-color: #f0f4f8;      /* Light blue-grey background */
+            color: #333;                    /* Dark grey text is easier to read */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* 2. The Form Box */
+        form {
+            background-color: white;
+            max-width: 500px;           /* Limits width so it looks neat */
+            margin: 0 auto;             /* Centers the form */
+            padding: 30px;
+            border-radius: 8px;         /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow */
+            border-top: 5px solid #4CAF50; /* A nice green accent bar on top */
+        }
+
+        /* 3. Headers */
+        h1 { text-align: center; color: #4CAF50; }
+        h2 { border-bottom: 2px solid #eee; padding-bottom: 5px; color: #555; margin-top: 20px; }
+
+        /* 4. Inputs and Labels - Creating "Space" */
+        label {
+            display: inline-block;
+            width: 120px;               /* Aligns all labels to the same width */
+            font-weight: bold;
+            margin-bottom: 10px;        /* Space between rows */
+        }
+
+        input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 60%;                 /* Input takes up remaining space */
+            margin-bottom: 10px;        /* Space between inputs */
+        }
+
+        /* 5. The New Button */
+        .register-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;  /* Green button */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .register-btn:hover {
+            background-color: #45a049;  /* Darker green when hovering */
+        }
+
+        /* 6. Contact Link */
+        .help-text {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        
+        a { color: #4CAF50; text-decoration: none; }
+    </style>
+</head>
+
+<body>
+
+    <form action="/action_page.php" autocomplete="on">
+        
+        <h1>Register</h1>
+        <p style="text-align:center;">Please fill in this form to create an account.</p>
+
+        <h2>Personal</h2>
+        <label for="p_name">Name:</label>
+        <input type="text" id="p_name" name="p_name" autofocus><br>
+        
+        <label for="p_dob">DOB:</label>
+        <input type="date" id="p_dob" name="p_dob"><br>
+        
+        <label for="p_gender">Gender:</label>
+        <input type="text" id="p_gender" name="p_gender"><br>
+        
+        <label for="p_blood">BloodGroup:</label>
+        <input type="text" id="p_blood" name="p_blood"> <br>
+        
+        <label for="p_email">Email:</label>
+        <input type="email" id="p_email" name="p_email"><br>
+        
+        <label for="p_phone">Phone No:</label>
+        <input type="number" id="p_phone" name="p_phone"><br>
+
+        <h2>Address</h2>
+        <label for="a_home">Home:</label>
+        <input type="text" id="a_home" name="a_home"><br>
+        
+        <label for="a_street">Street:</label>
+        <input type="text" id="a_street" name="a_street"><br>
+        
+        <label for="a_city">City:</label>
+        <input type="text" id="a_city" name="a_city"><br>
+        
+        <label for="a_state">State:</label>
+        <input type="text" id="a_state" name="a_state"> <br>
+        
+        <label for="a_pin">Pincode:</label>
+        <input type="number" id="a_pin" name="a_pin"><br>
+        
+        <label for="a_country">Country:</label>
+        <input type="text" id="a_country" name="a_country"><br>
+
+        <h2>Account</h2>
+        <label for="ac_uid">UID:</label>
+        <input type="number" id="ac_uid" name="ac_uid"><br>
+        
+        <label for="ac_course">Course:</label>
+        <input type="text" id="ac_course" name="ac_course"><br>
+        
+        <label for="ac_branch">Branch:</label>
+        <input type="text" id="ac_branch" name="ac_branch"><br>
+        
+        <label for="ac_sem">Semester:</label>
+        <input type="text" id="ac_sem" name="ac_sem"> <br>
+        
+        <label for="ac_sec">Section:</label>
+        <input type="number" id="ac_sec" name="ac_sec"><br>
+        
+        <label for="ac_grp">Group:</label>
+        <input type="number" id="ac_grp" name="ac_grp"><br>
+        
+        <label for="ac_inst">Institute:</label>
+        <input type="text" id="ac_inst" name="ac_inst"><br>
+
+        <button type="submit" class="register-btn">Create Account</button>
+
+        <p class="help-text">
+            Need help registering? 
+            <a href="mailto:support@college.edu">Contact Us via Email</a>.
+        </p>
+
+    </form>
+
+</body>
+</html>
