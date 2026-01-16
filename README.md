@@ -2,7 +2,6 @@
 
 A clean, responsive, and styled HTML registration form designed for educational institutions. This project demonstrates a frontend user interface for collecting personal, address, and academic account details.
 
-![Project Preview](screenshot.png)
 ## 📄 Overview
 
 This repository contains a standalone HTML page with embedded CSS. It provides a structured layout for user registration, specifically tailored for students entering university or college data (UID, Branch, Semester, etc.).
@@ -42,3 +41,4 @@ This repository contains a standalone HTML page with embedded CSS. It provides a
 /
 ├── index.html      # Contains both HTML structure and CSS styles
 └── README.md       # Project documentation
+
