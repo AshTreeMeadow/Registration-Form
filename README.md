@@ -1,44 +1,39 @@
-# 🎓 Student Registration Form
+# Student Registration Form 🚧
 
-A clean, responsive, and styled HTML registration form designed for educational institutions. This project demonstrates a frontend user interface for collecting personal, address, and academic account details.
+> **Status:** ⚠️ **Work in Progress (WIP)**
+> This project is currently under active development. The code is incomplete and subject to frequent changes as new files and styling improvements are added.
 
-## 📄 Overview
-
-This repository contains a standalone HTML page with embedded CSS. It provides a structured layout for user registration, specifically tailored for students entering university or college data (UID, Branch, Semester, etc.).
-
-## ✨ Features
-
-* **Clean UI/UX:** Uses a centered card layout with a "Light Blue-Grey" background and standard "Green" accent colors.
-* **Categorized Data:** Fields are logically grouped using headers:
-    * **Personal:** Name, DOB, Gender, Blood Group, Contacts.
-    * **Address:** Full residential address details.
-    * **Account:** Academic details (UID, Course, Section, Institute).
-* **Input Validation:** Utilizes HTML5 input types (`date`, `email`, `number`) for basic client-side validation.
-* **Responsive Design:** Max-width constraints ensure the form looks good on various screen sizes.
-* **Zero Dependencies:** Built entirely with standard HTML and CSS—no frameworks required.
-
-## 🛠️ Technologies Used
-
-* **HTML5:** Semantic structure.
-* **CSS3:** Internal styling for layout, typography, and hover effects.
-
-## 🚀 How to Run
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    ```
-2.  **Navigate to the folder:**
-    ```bash
-    cd your-repo-name
-    ```
-3.  **Open the file:**
-    Simply double-click `index.html` (or whatever you named the file) to open it in your web browser.
+A structured web registration form designed for collecting student data. This project serves as a foundation that is continuously being improved with better styling, additional files, and modular code.
 
 ## 📂 Project Structure
 
-```text
-/
-├── index.html      # Contains both HTML structure and CSS styles
-└── README.md       # Project documentation
+This project currently consists of the following base files:
 
+1.  **`index.html`**: Contains the HTML5 structure of the form (Personal, Address, Account sections).
+2.  **`style.css`**: Contains the initial styling rules (Layout, Card design, Basic typography).
+
+*Note: More CSS files and assets will be added soon to improve modularity.*
+
+## 🚀 How to Run
+
+1.  Download or clone this repository.
+2.  Ensure `index.html` and `style.css` are in the **same folder**.
+3.  Open `index.html` in your web browser.
+
+## 🔮 Future Improvements (Roadmap)
+
+Since this is an evolving project, the following updates are planned:
+
+* [ ] **Advanced CSS:** Breaking down the stylesheet into modular files for better maintainability.
+* [ ] **Form Validation:** Adding JavaScript for real-time input checking.
+* [ ] **Responsive Layout:** Improving the mobile view of the form.
+* [ ] **Backend Integration:** Connecting the form action to a real server.
+
+## 📝 Notes
+
+* **Form Action:** The form currently points to `/action_page.php` as a placeholder.
+* **Incomplete Features:** Some visual elements may look basic as the CSS is currently being refactored.
+
+## 📧 Contact
+
+If you have questions about the development process, feel free to reach out via [support@college.edu](mailto:support@college.edu).
