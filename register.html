@@ -2,73 +2,7 @@
 <html>
 <head>
     <title>Register</title>
-    <style>
-        /* 1. Global Page Styling */
-        body {
-            font-family: Arial, sans-serif; /* Cleaner font */
-            background-color: #f0f4f8;      /* Light blue-grey background */
-            color: #333;                    /* Dark grey text is easier to read */
-            margin: 0;
-            padding: 20px;
-        }
-
-        /* 2. The Form Box */
-        form {
-            background-color: white;
-            max-width: 500px;           /* Limits width so it looks neat */
-            margin: 0 auto;             /* Centers the form */
-            padding: 30px;
-            border-radius: 8px;         /* Rounded corners */
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow */
-            border-top: 5px solid #4CAF50; /* A nice green accent bar on top */
-        }
-
-        /* 3. Headers */
-        h1 { text-align: center; color: #4CAF50; }
-        h2 { border-bottom: 2px solid #eee; padding-bottom: 5px; color: #555; margin-top: 20px; }
-
-        /* 4. Inputs and Labels - Creating "Space" */
-        label {
-            display: inline-block;
-            width: 120px;               /* Aligns all labels to the same width */
-            font-weight: bold;
-            margin-bottom: 10px;        /* Space between rows */
-        }
-
-        input {
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            width: 60%;                 /* Input takes up remaining space */
-            margin-bottom: 10px;        /* Space between inputs */
-        }
-
-        /* 5. The New Button */
-        .register-btn {
-            width: 100%;
-            padding: 12px;
-            background-color: #4CAF50;  /* Green button */
-            color: white;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-
-        .register-btn:hover {
-            background-color: #45a049;  /* Darker green when hovering */
-        }
-
-        /* 6. Contact Link */
-        .help-text {
-            text-align: center;
-            margin-top: 15px;
-            font-size: 0.9em;
-        }
-        
-        a { color: #4CAF50; text-decoration: none; }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -76,7 +10,7 @@
     <form action="/action_page.php" autocomplete="on">
         
         <h1>Register</h1>
-        <p style="text-align:center;">Please fill in this form to create an account.</p>
+        <p class="description">Please fill in this form to create an account.</p>
 
         <h2>Personal</h2>
         <label for="p_name">Name:</label>
